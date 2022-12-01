@@ -121,24 +121,34 @@ namespace Calculator
         {
             try
             {
-                con.Open();
+                 con.Open();
+                // string query = "Insert into Student" +
+                //     " (Name,Address,contact,Email)" +
+                //"     values('" +
+                //             Name.Text +
+                //        "','" + Address.Text +
+                //         "','" + Contact.Text +
+                //          "','" +Email.Text +
+                //          "')";
+                // SqlCommand cmd = con.CreateCommand();
+                // cmd.CommandText = query;
                 string query = "Insert into Student" +
-                    " (Name,Address,contact,Email)" +
-               "     values('" +
-                            Name.Text +
-                       "','" + Address.Text +
-                        "','" + Contact.Text +
-                         "','" +Email.Text +
-                         "')";
+                            "(name,address,contact,Email)" +
+                            "values(@Name,@address" +
+                            ",@contact,@Email)";
                 SqlCommand cmd = con.CreateCommand();
                 cmd.CommandText = query;
+                cmd.Parameters.AddWithValue("@Name", Name.Text);
+                cmd.Parameters.AddWithValue("@address", Address.Text);
+                cmd.Parameters.AddWithValue("@Contact", Contact.Text);
+                cmd.Parameters.AddWithValue("@Email", Email.Text);
                 cmd.ExecuteNonQuery();
                 con.Close();
             }
             catch (Exception ex)
             {
 
-                MessageBox.Show("Error:" + ex.InnerException);
+                MessageBox.Show("Error:" + ex.Message);
             }
 
             //dataGridView1.Rows.Add("1", "Mansan", "Lalitpur", "9823379877", "mansansilwal@gmail.com");
