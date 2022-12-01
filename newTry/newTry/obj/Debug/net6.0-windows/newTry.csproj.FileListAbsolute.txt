@@ -1,0 +1,17 @@
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\newTry.exe
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\newTry.deps.json
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\newTry.runtimeconfig.json
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\newTry.dll
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\ref\newTry.dll
+D:\Mansan project\newTry\newTry\bin\Debug\net6.0-windows\newTry.pdb
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.csproj.AssemblyReference.cache
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.Form1.resources
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.csproj.GenerateResource.cache
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.GeneratedMSBuildEditorConfig.editorconfig
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.AssemblyInfoInputs.cache
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.AssemblyInfo.cs
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.csproj.CoreCompileInputs.cache
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.dll
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\ref\newTry.dll
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.pdb
+D:\Mansan project\newTry\newTry\obj\Debug\net6.0-windows\newTry.genruntimeconfig.cache
